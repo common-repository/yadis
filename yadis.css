@@ -1,0 +1,54 @@
+#yadis_services {
+	border: 1px solid #bbb;
+	background: #f0f8ff;
+	padding: 5px;
+	width: 500px;
+}
+
+#yadis_services h3 {
+	text-align: center;
+	color: #333;
+}
+
+.service {
+	cursor: move;
+	list-style: none;
+	clear: right;
+}
+
+.service div {
+	border: 1px solid #ccc;
+	background: #fbfbfb;
+	padding: 5px;
+	margin: 5px 0;
+	line-height: 25px;
+}
+.service span {
+	display: block;
+}
+.service .delete {
+	cursor: pointer;
+	float: right;
+	position: relative;
+	top: 1.5em;
+}
+
+.service span b {
+	width: 60px;
+	display: block;
+	float: left;
+}
+
+div#xrds_new_service_form div {
+	margin: 1em;
+}
+
+.sortHelper {
+	border: 2px dashed #666;
+	width: auto !important;
+	opacity: 0.6;
+}
+
+#xrds_custom_service input {
+	width: 20em;
+}
